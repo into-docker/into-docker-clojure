@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -eu
+
+echo "Building Uberjar ..."
+cd $INTO_SOURCE_DIR
+lein uberjar
+
+echo "Publishing artifacts ..."
+mv target/*-standalone.jar $INTO_ARTIFACT_DIR/app.jar
