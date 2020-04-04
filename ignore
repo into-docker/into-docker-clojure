@@ -5,11 +5,11 @@
 .hg/
 test/
 target/
-/classes
+classes/
 Dockerfile
 README.md
 pom.xml
 pom.xml.asc
 *.class
-/.lein-*
-/.nrepl-port
+.lein-*
+.nrepl-port
