@@ -1,8 +1,16 @@
 .git/
-.github/
 .gitignore
+.github/
+.hgignore
+.hg/
 test/
 target/
+/classes
 Dockerfile
 LICENSE
 README.md
+pom.xml
+pom.xml.asc
+*.class
+/.lein-*
+/.nrepl-port
