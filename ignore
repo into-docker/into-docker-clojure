@@ -7,7 +7,6 @@ test/
 target/
 /classes
 Dockerfile
-LICENSE
 README.md
 pom.xml
 pom.xml.asc
