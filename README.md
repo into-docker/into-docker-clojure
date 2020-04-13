@@ -1,7 +1,7 @@
-# into-docker-lein
+# into-docker-clojure
 
-[![](https://images.microbadger.com/badges/version/intodocker/lein.svg)](https://hub.docker.com/r/intodocker/lein)
-[![](https://images.microbadger.com/badges/image/intodocker/lein.svg)](https://hub.docker.com/r/intodocker/lein)
+[![](https://images.microbadger.com/badges/version/intodocker/clojure.svg)](https://hub.docker.com/r/intodocker/clojure)
+[![](https://images.microbadger.com/badges/image/intodocker/clojure.svg)](https://hub.docker.com/r/intodocker/clojure)
 
 This is an [into-docker][into] builder image for Clojure applications relying on
 [Leiningen][lein].
@@ -14,7 +14,7 @@ This is an [into-docker][into] builder image for Clojure applications relying on
 Run the following in the root directory of your Clojure project:
 
 ```sh
-into -t <repository>:<tag> intodocker/lein .
+into -t <repository>:<tag> intodocker/clojure .
 ```
 
 ## Notes
