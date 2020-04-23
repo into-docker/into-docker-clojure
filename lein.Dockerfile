@@ -15,10 +15,12 @@ LABEL org.into-docker.runner-image="adoptopenjdk/openjdk11:alpine-jre"
 LABEL org.into-docker.runner-entrypoint="java -jar /opt/app.jar"
 
 WORKDIR /into
+ENV HOME="/into/home"
 
-# Add ignore information from Github's collection of ignore files
-# License: CC0 1.0 Universal
-RUN curl -sL "https://raw.githubusercontent.com/github/gitignore/master/LICENSE" > ignore.LICENSE && \
+RUN mkdir home && chmod a+w home && \
+    # Add ignore information from Github's collection of ignore files
+    # License: CC0 1.0 Universal
+    curl -sL "https://raw.githubusercontent.com/github/gitignore/master/LICENSE" > ignore.LICENSE && \
     curl -sL "https://raw.githubusercontent.com/github/gitignore/master/Leiningen.gitignore" > ignore
 
 COPY into/ .
