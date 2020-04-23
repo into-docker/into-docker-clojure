@@ -12,7 +12,7 @@ LABEL org.opencontainers.image.revision="${COMMIT}"
 LABEL org.opencontainers.image.created="${BUILD_DATE}"
 
 LABEL org.into-docker.runner-image="adoptopenjdk/openjdk11:alpine-jre"
-LABEL org.into-docker.runner-cmd="java -jar /opt/app.jar"
+LABEL org.into-docker.runner-entrypoint="java -jar /opt/app.jar"
 
 WORKDIR /into
 
