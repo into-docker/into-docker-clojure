@@ -18,11 +18,5 @@ LABEL org.into-docker.runner-entrypoint="java -jar /opt/app.jar"
 
 WORKDIR /into
 ENV HOME="/into/home" LEIN_JVM_OPTS="-Duser.home=/into/home"
-
-RUN useradd -d "${HOME}" -m "${USER}" && \
-    # Add ignore information from Github's collection of ignore files
-    # License: CC0 1.0 Universal
-    curl -sL "https://raw.githubusercontent.com/github/gitignore/master/LICENSE" > ignore.LICENSE && \
-    curl -sL "https://raw.githubusercontent.com/github/gitignore/master/Leiningen.gitignore" > ignore
-
+RUN useradd -d "${HOME}" -m "${USER}"
 COPY into/ .
