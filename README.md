@@ -14,7 +14,7 @@ This is an [into-docker][into] builder image for Clojure applications relying on
 Run the following in the root directory of your Clojure project:
 
 ```sh
-into -t <repository>:<tag> intodocker/clojure .
+into build -t <repository>:<tag> intodocker/clojure .
 ```
 
 ## Notes
