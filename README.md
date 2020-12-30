@@ -1,7 +1,7 @@
 # into-docker-clojure
 
-[![](https://images.microbadger.com/badges/version/intodocker/clojure.svg)](https://hub.docker.com/r/intodocker/clojure)
-[![](https://images.microbadger.com/badges/image/intodocker/clojure.svg)](https://hub.docker.com/r/intodocker/clojure)
+[![](https://img.shields.io/docker/v/intodocker/clojure?sort=semver)](https://hub.docker.com/r/intodocker/clojure)
+[![](https://img.shields.io/docker/image-size/intodocker/clojure?sort=semver)](https://hub.docker.com/r/intodocker/clojure)
 
 This is an [into-docker][into] builder image for Clojure applications relying on
 [Leiningen][lein].
