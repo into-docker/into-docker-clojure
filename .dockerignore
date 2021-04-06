@@ -1,3 +1,6 @@
+.git/
+.github/
+.gitignore
 Dockerfile
 .dockerignore
 tags
