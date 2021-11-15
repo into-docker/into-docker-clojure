@@ -6,7 +6,7 @@ LABEL maintainer="Yannick Scherer <yannick.scherer@gmail.com>"
 LABEL org.opencontainers.image.authors="Yannick Scherer <yannick.scherer@gmail.com>"
 
 LABEL org.into-docker.builder-user="${USER}"
-LABEL org.into-docker.runner-image="adoptopenjdk/openjdk11:alpine-jre"
+LABEL org.into-docker.runner-image="openjdk:17-alpine"
 LABEL org.into-docker.runner-entrypoint="java -jar /opt/app.jar"
 
 WORKDIR /into
