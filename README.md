@@ -27,7 +27,7 @@ Make sure your project's `uberjar` task creates its output at
 ```
 MIT License
 
-Copyright (c) 2020 Yannick Scherer
+Copyright (c) 2020-2022 Yannick Scherer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
