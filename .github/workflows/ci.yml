@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: crazy-max/ghaction-docker-meta@v2
+      - uses: docker/metadata-action@v3
         id: meta
         with:
           images: intodocker/clojure
